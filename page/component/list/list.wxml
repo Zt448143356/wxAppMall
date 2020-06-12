@@ -1,0 +1,22 @@
+<view class="main">
+    <view class="banner">
+        <image src="/image/list1.png"></image>
+    </view>
+
+    <view class="list-box">
+        <view class="newest-list">
+				<navigator url="../details/details">
+					<image src="/image/s1.jpg"></image>
+					<view class="newest-text"><text>芒果 100g</text></view>
+					<view class="newest-text"><text>￥ 0.01</text></view>
+				</navigator>
+			</view>
+			<view class="newest-list">
+				<navigator url="../details/details">
+					<image src="/image/s2.jpg"></image>
+					<view class="newest-text"><text>苹果 半斤</text></view>
+					<view class="newest-text"><text>￥ 0.02</text></view>
+				</navigator>
+			</view>
+    </view>
+</view>

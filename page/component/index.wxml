@@ -1,0 +1,115 @@
+<view class="main">
+	<swiper indicator-dots="true" autoplay="true" interval="{{interval}}" duration="{{duration}}" circular="true">
+		<block wx:for="{{imgUrls}}" wx:key="index">
+			<navigator url="{{item.url}}">
+				<swiper-item>
+					<image src="{{item.img}}" class="slide-image" width="100%" />
+				</swiper-item>
+			</navigator>
+		</block>
+	</swiper>
+	<view class="search">
+		<navigator url="search/search">
+			<view class="search-text">
+				<icon class="weui-icon-search_in-box search-icon" type="search" size="14"></icon>
+				搜 索
+			</view>
+		</navigator>
+	</view>
+	<view class="selected">
+		<view class="select-title"><text>精选主题</text></view>
+		<view class="select-top">
+			<view class="select-top-small">
+				<navigator url="list/list">
+					<image src="/image/s1.jpg"></image>
+				</navigator>
+			</view>
+			<view class="select-top-small" style="float:right">
+				<navigator url="list/list">
+					<image src="/image/s2.jpg"></image>
+				</navigator>
+			</view>
+		</view>
+		<view style="width:100%;height:4rpx"></view>
+		<view class="select-bottom">
+			<view class="select-top-small">
+				<navigator url="list/list">
+					<image src="/image/s3.jpg"></image>
+				</navigator>
+			</view>
+			<view class="select-top-small" style="float:right">
+				<navigator url="list/list">
+					<image src="/image/s4.jpg"></image>
+				</navigator>
+			</view>
+		</view>
+	</view>
+	<view class="newest">
+		<view class="newest-title"><text>最近新品</text></view>
+		<view class="newest-box">
+			<view class="newest-list">
+				<navigator url="details/details">
+					<image src="/image/s1.jpg"></image>
+					<view class="newest-text"><text>芒果 100g</text></view>
+					<view class="newest-text"><text>￥ 0.01</text></view>
+				</navigator>
+			</view>
+			<view class="newest-list">
+				<navigator url="details/details">
+					<image src="/image/s2.jpg"></image>
+					<view class="newest-text"><text>苹果 半斤</text></view>
+					<view class="newest-text"><text>￥ 0.02</text></view>
+				</navigator>
+			</view>
+			<view class="newest-list">
+				<navigator url="details/details">
+					<image src="/image/s3.jpg"></image>
+					<view class="newest-text"><text>地瓜 375g</text></view>
+					<view class="newest-text"><text>￥ 0.03</text></view>
+				</navigator>
+			</view>
+			<view class="newest-list">
+				<navigator url="details/details">
+					<image src="/image/s4.jpg"></image>
+					<view class="newest-text"><text>山药 100g</text></view>
+					<view class="newest-text"><text>￥ 0.01</text></view>
+				</navigator>
+			</view>
+		<view class="newest-list">
+				<navigator url="details/details">
+					<image src="/image/s1.jpg"></image>
+					<view class="newest-text"><text>芒果 100g</text></view>
+					<view class="newest-text"><text>￥ 0.01</text></view>
+				</navigator>
+			</view>
+			<view class="newest-list">
+				<navigator url="details/details">
+					<image src="/image/s2.jpg"></image>
+					<view class="newest-text"><text>苹果 半斤</text></view>
+					<view class="newest-text"><text>￥ 0.02</text></view>
+				</navigator>
+			</view>
+			<view class="newest-list">
+				<navigator url="details/details">
+					<image src="/image/s3.jpg"></image>
+					<view class="newest-text"><text>地瓜 375g</text></view>
+					<view class="newest-text"><text>￥ 0.03</text></view>
+				</navigator>
+			</view>
+			<view class="newest-list">
+				<navigator url="details/details">
+					<image src="/image/s4.jpg"></image>
+					<view class="newest-text"><text>山药 100g</text></view>
+					<view class="newest-text"><text>￥ 0.01</text></view>
+				</navigator>
+			</view>
+			<view class="newest-list">
+				<navigator url="details/details">
+					<image src="/image/s3.jpg"></image>
+					<view class="newest-text"><text>地瓜 375g</text></view>
+					<view class="newest-text"><text>￥ 0.03</text></view>
+				</navigator>
+			</view>
+		</view>
+	</view>
+</view>
